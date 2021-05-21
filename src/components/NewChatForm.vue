@@ -4,7 +4,9 @@
             placeholder="Type a message and hit enter to send..."
             v-model="message"
             @keypress.enter.prevent="handleSubmit"
-        ></textarea>
+        >
+        </textarea>
+
         <div v-if="error" class="error">{{ error }} blah</div>
     </form>
 </template>

@@ -4,7 +4,7 @@
         <input type="password" required placeholder="password" v-model="password" />
         <div class="error">{{ error }}</div>
         <!-- ko can v-if -->
-        <button>Sign up</button>
+        <button>Sign in</button>
     </form>
 </template>
 
